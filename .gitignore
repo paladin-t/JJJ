@@ -1,0 +1,8 @@
+/node_modules
+/public/images
+/public/models
+/public/styles
+/public/*.exe
+/public/*.html
+/public/*.ico
+/public/*.txt
