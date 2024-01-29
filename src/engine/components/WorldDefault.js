@@ -1,9 +1,9 @@
 import * as THREE from 'three'
 
-import { WorldBase } from './WorldBase'
-import { RendererBasic } from './RendererBasic'
-import { RendererBloom } from './RendererBloom'
-import { RendererToon } from './RendererToon'
+import { WorldBase } from './WorldBase.js'
+import { RendererBasic } from './RendererBasic.js'
+import { RendererBloom } from './RendererBloom.js'
+import { RendererToon } from './RendererToon.js'
 
 class WorldDefault extends WorldBase {
   /*

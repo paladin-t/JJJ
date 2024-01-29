@@ -1,7 +1,7 @@
-import { OrbitControls } from 'three/addons/controls/OrbitControls';
+import { OrbitControls } from 'three/addons/controls/OrbitControls.js'
 
-import { ControllerBase } from './ControllerBase'
-import { Translator } from '../utils/Translator'
+import { ControllerBase } from './ControllerBase.js'
+import { Translator } from '../utils/Translator.js'
 
 class ControllerOrbit extends ControllerBase {
   _controls = null;

@@ -1,10 +1,10 @@
 import * as THREE from 'three'
-import { GLTFExporter } from 'three/addons/exporters/GLTFExporter';
-import { GUI } from 'three/addons/libs/lil-gui.module.min';
-import Stats from 'three/addons/libs/stats.module';
+import { GLTFExporter } from 'three/addons/exporters/GLTFExporter.js'
+import { GUI } from 'three/addons/libs/lil-gui.module.min.js'
+import Stats from 'three/addons/libs/stats.module.js'
 
-import { WEBGL } from './webgl'
-import { Game } from './engine/Game'
+import { WEBGL } from './webgl.js'
+import { Game } from './engine/Game.js'
 
 if (WEBGL.isWebGLAvailable()) {
   // Parse the arguments.

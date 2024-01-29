@@ -1,12 +1,12 @@
 import * as THREE from 'three'
-import { FBXLoader } from 'three/addons/loaders/FBXLoader';
-import { GLTFLoader } from 'three/addons/loaders/GLTFLoader';
-import { USDZLoader } from 'three/addons/loaders/USDZLoader';
+import { FBXLoader } from 'three/addons/loaders/FBXLoader.js'
+import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js'
+import { USDZLoader } from 'three/addons/loaders/USDZLoader.js'
 
-import { ControllerAnimation } from './ControllerAnimation'
-import { ControllerOrbit } from './ControllerOrbit'
-import { Retriever } from '../utils/Retriever'
-import { Translator } from '../utils/Translator'
+import { ControllerAnimation } from './ControllerAnimation.js'
+import { ControllerOrbit } from './ControllerOrbit.js'
+import { Retriever } from '../utils/Retriever.js'
+import { Translator } from '../utils/Translator.js'
 
 class WorldBase {
   /*

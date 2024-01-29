@@ -1,7 +1,7 @@
-import { ControllerBase } from './components/ControllerBase'
-import { RendererBase } from './components/RendererBase'
-import { WorldBase } from './components/WorldBase'
-import { WorldDefault } from './components/WorldDefault'
+import { ControllerBase } from './components/ControllerBase.js'
+import { RendererBase } from './components/RendererBase.js'
+import { WorldBase } from './components/WorldBase.js'
+import { WorldDefault } from './components/WorldDefault.js'
 
 class Game {
   /*

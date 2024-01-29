@@ -1,7 +1,7 @@
 import * as THREE from 'three'
-import { OutlineEffect } from 'three/addons/effects/OutlineEffect';
+import { OutlineEffect } from 'three/addons/effects/OutlineEffect.js'
 
-import { RendererBase } from './RendererBase'
+import { RendererBase } from './RendererBase.js'
 
 class RendererToon extends RendererBase {
   /*

@@ -1,6 +1,6 @@
 import * as THREE from 'three'
 
-import { RendererBase } from './RendererBase'
+import { RendererBase } from './RendererBase.js'
 
 class RendererBasic extends RendererBase {
   /*

@@ -2,7 +2,19 @@
   "name": "jjj.js",
   "version": "1.0.0",
   "description": "A 3D toolkit and framework based on Three.js",
-  "main": "index.js",
+  "main": "./src/engine/Game.js",
+  "module": "./src/engine/Game.js",
+  "exports": {
+    ".": {
+      "import": "./src/engine/Game.js"
+    },
+    "./*": "./src/*",
+    "./engine/*": "./src/engine/*",
+    "./components/*": "./src/engine/components/*",
+    "./utils/*": "./src/engine/utils/*",
+    "./JJJ/*": "./src/engine/*",
+    "./src/*": "./src/*"
+  },
   "scripts": {
     "build": "webpack --config webpack.config.js",
     "start": "webpack-dev-server --mode development",

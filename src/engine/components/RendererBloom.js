@@ -1,10 +1,10 @@
 import * as THREE from 'three'
-import { EffectComposer } from 'three/addons/postprocessing/EffectComposer';
-import { OutputPass } from 'three/addons/postprocessing/OutputPass';
-import { RenderPass } from 'three/addons/postprocessing/RenderPass';
-import { UnrealBloomPass } from 'three/addons/postprocessing/UnrealBloomPass';
+import { EffectComposer } from 'three/addons/postprocessing/EffectComposer.js'
+import { OutputPass } from 'three/addons/postprocessing/OutputPass.js'
+import { RenderPass } from 'three/addons/postprocessing/RenderPass.js'
+import { UnrealBloomPass } from 'three/addons/postprocessing/UnrealBloomPass.js'
 
-import { RendererBase } from './RendererBase'
+import { RendererBase } from './RendererBase.js'
 
 class RendererBloom extends RendererBase {
   /*

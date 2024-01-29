@@ -1,6 +1,6 @@
 import * as THREE from 'three'
 
-import { ControllerBase } from './ControllerBase'
+import { ControllerBase } from './ControllerBase.js'
 
 class ControllerAnimation extends ControllerBase {
   _animations = null;
