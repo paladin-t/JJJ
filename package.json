@@ -1,6 +1,6 @@
 {
   "name": "jjj.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A 3D toolkit and framework based on Three.js",
   "main": "./src/engine/Game.js",
   "module": "./src/engine/Game.js",
