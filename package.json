@@ -1,16 +1,26 @@
 {
-  "name": "landing",
+  "name": "jjj.js",
   "version": "1.0.0",
-  "description": "",
+  "description": "A 3D toolkit and framework based on Three.js",
   "main": "index.js",
   "scripts": {
     "build": "webpack --config webpack.config.js",
     "start": "webpack-dev-server --mode development",
     "format": "prettier --write '**/*.js'"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paladin-t/JJJ.git"
+  },
+  "keywords": [
+    "threejs", "3d", "game", "engine", "framework"
+  ],
+  "author": "Tony Wang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/paladin-t/JJJ/issues"
+  },
+  "homepage": "https://paladin-t.github.io/tiny/jjj/index.html",
   "dependencies": {
     "copy-webpack-plugin": "^11.0.0",
     "three": "^0.160.0"

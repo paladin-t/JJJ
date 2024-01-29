@@ -35,6 +35,12 @@ JJJ is Configured with Webpack as a bundler.
 Clone the project and install dependencies:
 
 ```bash
+npm i jjj.js
+```
+
+or:
+
+```bash
 git clone https://github.com/paladin-t/JJJ.git
 npm i
 ```
